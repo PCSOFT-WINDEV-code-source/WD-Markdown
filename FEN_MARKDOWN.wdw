@@ -1,0 +1,191 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_MARKDOWN
+ major_version : 28
+ minor_version : 0
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_MARKDOWN
+ identifier : 0x236cce2b0163a55f
+ internal_properties : CAAAAAgAAAB4T/mj7mwlzX5RTle/xTTFD/O87YgeuNwjQ51a4nAKyUgAsnd6PMh60x4SVKN07ZKOKvF1ZxWtnLH0zGYVxzZw6yzklLgOuXeT8ua2CB+appzP2IfsJxhxIwS2jCpsa9YHkmJvcW1iaJwNR5hrKjc0Lari93CRl0jSwneCrWJyN7asrblMQSXxdLvaQmJSrGlMgXyZu35MBFnUcN2vViSrPvKs/cRZ5wY4oXWlY1U7oKGNaVkaujnCsXQC3/EzSapvYjw+vOH+zOUtNlvGZL3Ctpc6bCKuBhkSrc5n+Q1ydfhPseqK0N9WzIOrrBO+nPHun/Fj2hLrnjULeRDsNEU/q+bL6uyAIUN/p711Ngcatqaf/E99EnuJdXcflfX6jCpWOj5lCEZFje/pix3lzMwtkkPy7RFy0Tg2Smk9pWMYcDF/T588coXWi8htLnNe8GgtQx4IicWCUqaxN/P7irsNVo1pb6jLGq7xy8rq6yLSAxTYrZ6Iym+Smt4+gkauWPALik9FcDmshf1JcORsuCe0lYC2F2Y9BkdqFfpZfxWCOeWS5AOoCtSnHBtzZyNwFKTzmua4R1DcDlSc/jKyV17DfwygHqz0fAi3S8XkDepzUpoy4GZiC2a0oSf7lLTGsfPtt5dsO3wtLSRXJoaOFjRkbQ5SqPGxczln4i5I/HcunEpP2q26HV42ifEGrFy+ASe2rEAHNe1Tdw6wM+Ox8j5E0QK0BgZC73Qc15inAf8yoco0UmJ9Gg==
+ properties :
+  width : 848
+  height : 600
+  widthClient : 846
+  heightClient : 569
+ controls :
+  -
+    name : ONG_MD
+    identifier : 0x237f245d05711413
+    internal_properties : CAAAAAgAAACqqQBBdJdAK7bgVEXVeYsCao5IgRjB/F+VJWY65lTfR86fiFMdaijneFD+nwHsatg/KHhdI8tjZ1ELukgehrz+etM7fHepbfLq1/+ryDQ57h2ZPk04wUw0+3pHkQmDcZPKiorRFmjXzkVwM6YhG/sh/rhprsXxOSua4rmySBTG+GP+gFDQKB/EN5D9pl9c+DphwTtofsa6qm/R2FfZQOW/q/9yvECKcXknNqDuXxqIf0JGJWBxIth566HBALGbCh2458GzqA8I+pni/qGJU0XucO0YFKIfiZ6TvZlULZQ38J32FY9+V1YCLOvSBVfgPePl5CnEWZH/ewtn4zoUCUUkYAKkfaS9VqcB/qokyP+xA0+rFVpbADe4A/joF6WGQtaXpBEd6BHeYDjTq09NqB7mPUwrpsQZje4O9NobhGEfNS0m1pH3hZzSm48b9CJpKjlRyyCQkEk82Ta/YLD36poDNH3Vs3yPkUFPQvLH8xhI2IhF7+prB1olQ6psg8RuijCk8ueVu4bqgX7TBAM0Bv7xTkh84cRSK6ov78EgT/lervxl7dg5m8Xm9vmXG2XcuCzmjSG/sqtWWrDR1h6rslR2djsTISauD1rgsf2r5qNYyQJRFEavl88G+FCCjtHJLMDN5IVD0UgMFwqm5ygFYJ5FN4fvIBGqsOXHMZ3rSmFCCyq6nUBg4nbyaaQsYD4vDw54pRJNHLA9zIAJ7twvxILphRHkuJtAhpl5EhtHHwTUzMLdvHl2ZW9HKy2jK6vnEsoixIV/OJPVO7W/hN/ApgdoMbs60Og5/2ibOWqtbjzj1hQpwHPVu5dcrb5MXgHYRMnA9zb2fGhC+JYquHgJmQLHzpRm8Vshw1AHiRc2iw0d3pYjagh+pH5WzoX1XA0f0X7Og81bnHuq6rPEWiFj1ovdRC5PuW+DjD0A0VN5rDZF22ylfZ0YNMvoHzIhQvj2Wk5FaMmOTro1xeMMAIKd/7GCWTSGbAlJITyKCYrGQrSqcqLWJDHHXXbQiylhIRPuLXXlTEc/rciN0P5woGAhvZsE/o2HpYQ8SYTzXJ1tlcQ50Fw0oPYJEzYBMyy4QMKz81AdvC4fx2PxrzySjUlVYSmS2ISsJO9v8yzyznLBqNKBH4snOgoKP52g
+    properties :
+     y : 6
+     width : 848
+     height : 565
+    tabs : []
+    type : 16
+    code_elements :
+     type_code : 24
+     p_codes :
+      -
+        code : |1-
+         
+         BTN_NOUVEAU.ExécuteTraitement( trtclic )
+        type : 235
+      -
+        code : |1-
+         procedure privee __Fermeture( Volet est un champ )
+         
+         SurFermetureVolet( Volet )
+        type : 236
+      -
+        code : |1+
+         PROCÉDURE privee __Modification( Volet est un champ )
+        type : 17
+  -
+    name : BTN_NOUVEAU
+    identifier : 0x237f24f706046e20
+    internal_properties : CAAAAAgAAAAm12HgQbVgF4davuu9iLIVAYSXu0RTu8tZ71rQLE3mHgy/UNYBpxQOtGYSWoZgF2c/fvSYN0pFF7n57XJWEyqacYldEhaQxQVfTGE65rWXgcWiNhdK7pP71UgK9Is6u8/49hnhygXuA4bAaE1kbQQ9IhsyDDZGbiC+7ZEcka+i14FBYo0b0LynRd6JAHMM+WkzSbnyRhQzKD07QQr0+guaz0wnZc3UgiK/Ejj6JK1JfmKplLQs5LZHe1iaGyvVQT1E+5vuxd/l43ejIyzBN0Q/hN7o10/L0xnApKcUvAPATA8MB8ByPmSk30LS0GXyBQ13anb7uEpRjg0V/eeuM9rgZ3dKg695cBiiZ7K9X9etd29ngPjonaYMBB3kp/1yFP4cx72E6GD1du4v2ZhGMFB+5O7l+cdlm5/84cQV6+qmhP2sF5gyf2IECuDiGSS0xBSa7lDNQ17uzALqzf9yQM+XFVPB+5wd9Tcsen/1/zeFDg+Kqd9ltUgkrt3/kSbLhdn7nD62Z+RPUzOkp8+cAxNBVnG5rog12x8i1B/XQVKpI6c9rRi5Hm/aR461ZMFXLZT+go85Ey65Jw96cxmij7BUg3+DCCsLqkSEr0OeKK1nE9TLGHGBZfB/mvUXR9+cKW6yMmMW8EsoYxy2cdFHLTIK09WOuwkLe0Kl5BP7eORXmawk7ePchpXWGFuIVQA/DTLfLa/nWpuaEZwJLM0OSusmzIsTStdcipHS/NsHNkGW5vvrbUdiEwfx6Q6F/5vh9eNIZiZoZQ0IWU1AH2K7FEtcBOU0PCqFpc3j9h16P+SRiZw1+9FduAXqHO246DOeqQGumZIZIFxrnnzJLm0Ko5Yv11qNo0i60I15O6g0q+90yXFzmXgUwnbZcbeDWQVik80R4qjU3cu8MtaYFuGSPbu5EqgMNvmB4kk/LXblr/KovEriuEQ7pdDPafgFGhfZAc6tGXvh6xoocylPdQ0cnlZqunG3a/SCIPICsLjqFvyyZehvckj5og==
+    properties :
+     x : 398
+     y : 260
+     width : 48
+     height : 48
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         ONG_MD.visible = vrai
+         
+         SurNouvelOnglet( ONG_MD.Ouvre( "Nouveau document", FI_EDITEUR ) )
+         
+        type : 18
+      -
+        type : 161
+        enabled : false
+ menu :
+  name : _Menu
+  identifier : 0x292573e513b5f221
+  internal_properties : CAAAAAgAAABolUUTe/ChVGjvhClq1yuaCw5C9uOg/mgP4csm5PPaumQ+mzbPvzHPT0N1AA/zoUcEB/Q2aEPudoGlHf/1w8aNW1l2ke7K7YvjL+KXl6ui7n1LFpWs+vjf9qTjtm7du5s7KSAtr1vgdYe7nWSVoaX/0l2GvX796g11PoTG/4ookeCAuYEOEftCoD/kYqOjmrgiMqwhk/6INbMLdhsRErSC4R/nZR5SMzseiCJDwTb5da+jbyhuiVR9GSMtN9F4SgZ+M3Ci6N1x48qEAhvcPkP5n81bGWXdtSdHP3Mi59A=
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : CAAAAAgAAAAjFWXItEk/EPvcbGR+hALkgRfdOpVtIn+yZNxHnmSRFJegE/AnD2HbGAaMfhGCqfzkryHG9FVhjtF+iQYkZ59QBQ88Okhh0vjCoVhOagox2hvIqrJnU30QK15/ZA==
+ actionbar : {}
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1-
+      PROCEDURE MaFenêtre()
+      
+      Editeurs est un tableau associatif de champ
+      
+      ExplorerAccepte( Vrai, mafenetre, procédure( nNbFichiers est un entier, sListeDesFichiers est une chaine ) { 
+      
+      	// On ne prend que le premier fichier
+      	pour toute chaine sFichier de sListeDesFichiers separee par rc
+      	
+      		si fFichierExiste( sFichier ) ALORS
+      			
+      			// Charge le fichier
+      			SurNouvelOnglet( ONG_MD.Ouvre( fExtraitChemin( sFichier, ffichier + fExtension ), FI_EDITEUR, sFichier ) )			
+      		FIN	
+      	fin
+      } )
+   -
+     code : |1-
+      
+     type : 34
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1-
+      
+      // Ferme les volets ouverts
+      pour tout Volet, Alias de Editeurs	
+      	SurFermetureVolet( Volet )
+      	ONG_MD.Ferme( Alias )
+      FIN
+     type : 2
+  procedures :
+   -
+     name : SurNouvelOnglet
+     procedure_id : 1404885125407744512
+     type_code : 14
+     code : |1+
+      // Résumé : Exécuté lors de l'ouverture d'un volet
+      // Syntaxe :
+      // SurNouvelOnglet ()
+      //
+      // Paramètres :
+      //	Aucun
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure privee SurNouvelOnglet( Volet est un champ )
+      
+      	si ONG_MD.Occurrence > 0 ALORS
+      		ONG_MD.Visible = vrai
+      	FIN
+      
+      	// Mémorise
+      	Editeurs[ Volet..Alias ] <- Volet
+      
+      	Volet.FI_EDITEUR.VoletAssocié = Volet		
+     type : 458752
+   -
+     name : SurFermetureVolet
+     procedure_id : 1404934264121341773
+     type_code : 14
+     code : |1-
+      // Résumé : Déclenché lors de la fermeture d'un volet
+      // Syntaxe :
+      //SurFermetureVolet (<Volet> est champ)
+      //
+      // Paramètres :
+      //	Volet (champ) : Volet
+      // Valeur de retour :
+      // 	Aucune
+      //
+      procédure PRIVÉE SurFermetureVolet( Volet est un champ )
+      
+      	// Informe l'éditeur de la fermeture
+      	SI Volet <> Null ALORS
+      		SI Volet.FI_EDITEUR.SurFermeture()	= Faux ALORS
+      			DonneFocusEtRetourUtilisateur( FEN_MARKDOWN )
+      		FIN
+      	FIN
+      	
+      	// Mémorise
+      	Supprime( Editeurs, Volet..Alias )
+      	
+      	SI ONG_MD.Occurrence <= 1 ALORS
+      		ONG_MD.Visible = Faux
+      	FIN
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAAB/E2SZRb9VnQU5+PivybZwVafwXhgCAWSYftdyjxWxFx7cb58ydr0ud57ZygZVSIIWCI/Me2Ok
+  original_name : Modele1
+resources :
+ string_res :
+  identifier : 0x136cce23000487b6
+  internal_properties : CAAAAAgAAAA7wCugPa3Llh29up4VO+T++wa3OrewuQ3WP4NJV47trUqhlqE=
+custom_note :
+ internal_properties : CAAAAAgAAAC68/W0/adbG0nFCRhrE42B5HRnbDzVHaz86sSQyxlBk7I=
+rad :
+ internal_properties : CAAAAAgAAABoAN7PLpwJW3EiA7WVZdCA5EwrCA1rvutcDHooMWKe
